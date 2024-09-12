@@ -1,0 +1,24 @@
+hr {
+    background-color: var(--color-primary);
+    height: 5px;
+    margin: 0px 100px;
+    border: none;
+}
+
+@media (max-width: 884px) {
+    hr {
+        margin: 0px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    hr {
+        margin: 0px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    hr {
+        margin: 0px 25px;
+    }
+}
